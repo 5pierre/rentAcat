@@ -11,6 +11,11 @@ class catModel
         $this->bdd = Bdd::connexion();
     }
     
+    public function getcats()
+    {
+        return $this->bdd->query("SELECT * FROM cats")->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
     // public function getmessage()
     // {
     //     $stmt = $this->bdd->prepare("SELECT * FROM messages ORDER BY created_at DESC"); // Préparation de la requête pour éviter les injections

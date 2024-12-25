@@ -14,24 +14,9 @@ class catController
     {
 
         if (!$_SESSION['user']['logged_in'] === false) {
-
-            // if ($_SERVER['REQUEST_METHOD'] === 'POST') 
-            // {
-            //     $msg = $_POST['message'] ;
-
-            //     if($this->model->addmessage($_SESSION['user']['name'],$msg))
-            //     {
-            //         echo "envoie du message ok";
-            //         header("Location: ?page=guestbook");
-    
-            //     }
-            // }
-            // else
-            // {
-            //     $message = $this->model->getmessage();
-            //     include_once 'view/rentAcat.php';
-            // }
+            $cats = $this->model->getcats();
             include_once 'view/rentAcat.php';
+            
         }
         else 
         {

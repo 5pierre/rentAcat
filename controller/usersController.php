@@ -60,7 +60,7 @@ class usersController
                 $_SESSION['user']['name'] = $user['nom']; 
                 $_SESSION['user']['logged_in'] = true;
 
-                header("Location: ?page=guestbook");
+                header("Location: ?page=cat");
             } 
             else 
             {

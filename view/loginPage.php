@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./view/styles.css">
+<link rel="stylesheet" href="./view/styles/styles.css">
 <script>
     function toggleForm() {
         const loginForm = document.getElementById('login-form');

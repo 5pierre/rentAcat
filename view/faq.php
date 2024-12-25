@@ -1,42 +1,5 @@
-<style>
-#faq-page {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
+<link rel="stylesheet" href="./view/styles/styleFAQ.css">
 
-#faq-page h1 {
-    color: #333;
-    margin-bottom: 30px;
-}
-
-#faq-page .faq-section {
-    margin-bottom: 20px;
-}
-
-#faq-page h2 {
-    color: #555;
-}
-
-#faq-page p {
-    color: #777;
-}
-
-#faq-page .cta-button {
-    text-decoration: none;
-    color: white;
-    background-color: #ff6b6b;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-#faq-page .cta-button:hover {
-    background-color: #ff4b4b;
-}
-
-
-</style>
 <body>
     <main id="faq-page">
         <h1>Questions Fréquemment Posées</h1>

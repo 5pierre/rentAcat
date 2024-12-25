@@ -10,13 +10,24 @@ class catController
     {
         $this->model = new catModel;
     }
-    public function gestionlogincat()
+    public function gestioncats()
     {
 
+
         if (!$_SESSION['user']['logged_in'] === false) {
-            $cats = $this->model->getcats();
-            include_once 'view/rentAcat.php';
-            
+
+            if (isset($_GET['page']) && $_GET['page'] === 'cat' && isset($_GET['id'])) 
+            {   
+                $cat = $this->model->getcatById($_GET['id']);
+                include_once 'view/catprofil.php';
+            } 
+            else 
+            {
+                $cats = $this->model->getcats();
+                include_once 'view/rentAcat.php';
+            }
+
+
         }
         else 
         {

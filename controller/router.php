@@ -13,7 +13,7 @@ switch($page)
     case 'cat':
         include_once 'controller/catController.php';
         $users = new catController;
-        $users->gestionlogincat();
+        $users->gestioncats();
         break;
 
     case 'login':

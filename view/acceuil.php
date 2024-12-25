@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Rent a Cat</title>
-    <link rel="stylesheet" href="./view/stylesacceuil.css">
+    <link rel="stylesheet" href="./view/styles/stylesacceuil.css">
 </head>
 <body>
     <main id="home-page">

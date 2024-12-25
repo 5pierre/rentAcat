@@ -18,9 +18,7 @@
                 Mot de passe  : <input type="password" name ="password" required> <br>
                 <button type="submit">Se connecter</button>
             </form>
-            <div>
-                <p><a href="#">Mot de passe oublié ?</a></p>
-            </div>
+
             <div class="form-toggle">
                 <button onclick="toggleForm()">Pas encore inscrit ? Inscrivez-vous</button>
             </div>

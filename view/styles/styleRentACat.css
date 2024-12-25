@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Style des cartes de chat */
 .cat-card {
     background-color: white;
     margin: 20px auto;
@@ -17,14 +16,12 @@ body {
     text-align: center;
 }
 
-/* Nom du chat */
 .cat-name {
     font-size: 1.8em;
     color: #444;
     margin-bottom: 10px;
 }
 
-/* Image du chat */
 .cat-image {
     width: 100%;
     max-width: 400px;
@@ -34,14 +31,12 @@ body {
     margin-bottom: 15px;
 }
 
-/* Description */
 .cat-description {
     font-size: 1em;
     color: #555;
     margin-bottom: 20px;
 }
 
-/* Lien vers plus d'infos */
 .cat-link a {
     text-decoration: none;
     color: #ff6b6b;

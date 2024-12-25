@@ -2,7 +2,6 @@
 
 session_start(); 
 
-
 if (!isset($_SESSION['user'])) {
     $_SESSION['user'] = [
         'id' => null,
@@ -10,8 +9,6 @@ if (!isset($_SESSION['user'])) {
         'logged_in' => false,
     ];
 }
-
-
 
 
 include 'view/header.php';
